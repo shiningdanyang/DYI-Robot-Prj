@@ -1,0 +1,41 @@
+Change Component Designator: OldDesignator= NewDesignator=LED1
+Change Component Designator: OldDesignator= NewDesignator=P?
+Change Component Designator: OldDesignator= NewDesignator=R_Led1
+Change Component Designator: OldDesignator= NewDesignator=VR1
+Change Component Designator: OldDesignator= NewDesignator=VR2
+Change Component Designator: OldDesignator= NewDesignator=VR3
+Change Component Designator: OldDesignator= NewDesignator=VR4
+Change Component Designator: OldDesignator= NewDesignator=VR5
+Change Component Designator: OldDesignator= NewDesignator=VR6
+Change Component Designator: OldDesignator= NewDesignator=VR7
+Change Component Designator: OldDesignator= NewDesignator=VR8
+Added Component: Designator=LED2(LED-3MM-YELLOW)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LED 3 ly Single Colour"; VariantName = "[No Variations]"
+Added Component: Designator=R_Led2(RES-1/2W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SubClass"; Value = "R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC Pin=LED2-1
+Added Pin To Net: NetName=GND Pin=R_Led2-2
+Change Net Name : Old Net Name=NetLED?_2 New Net Name=NetLED1_2
+Added Pin To Net: NetName=NetLED2_2 Pin=LED2-2
+Added Pin To Net: NetName=NetLED2_2 Pin=R_Led2-1
+Added Net: Name=NetLED2_2
+Added Member To Class: ClassName=SensorLDR Member=Component LED1 LED
+Added Member To Class: ClassName=SensorLDR Member=Component LED2 LED
+Added Member To Class: ClassName=SensorLDR Member=Component P? Header 10H
+Added Member To Class: ClassName=SensorLDR Member=Component R_Led1 Res
+Added Member To Class: ClassName=SensorLDR Member=Component R_Led2 Res
+Added Member To Class: ClassName=SensorLDR Member=Component VR1 50K
+Added Member To Class: ClassName=SensorLDR Member=Component VR2 50K
+Added Member To Class: ClassName=SensorLDR Member=Component VR3 50K
+Added Member To Class: ClassName=SensorLDR Member=Component VR4 50K
+Added Member To Class: ClassName=SensorLDR Member=Component VR5 50K
+Added Member To Class: ClassName=SensorLDR Member=Component VR6 50K
+Added Member To Class: ClassName=SensorLDR Member=Component VR7 50K
+Added Member To Class: ClassName=SensorLDR Member=Component VR8 50K
+Added Room: Name=SensorLDR

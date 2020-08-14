@@ -1,0 +1,67 @@
+Removed Pin From Net: NetName=VCC Pin=HEADER-1
+Removed Pin From Net: NetName=GND Pin=HEADER-2
+Removed Pin From Net: NetName=S1 Pin=HEADER-3
+Removed Pin From Net: NetName=S2 Pin=HEADER-4
+Removed Pin From Net: NetName=S3 Pin=HEADER-5
+Removed Pin From Net: NetName=S4 Pin=HEADER-6
+Removed Pin From Net: NetName=S5 Pin=HEADER-7
+Removed Pin From Net: NetName=S6 Pin=HEADER-8
+Removed Pin From Net: NetName=S7 Pin=HEADER-9
+Removed Pin From Net: NetName=GND Pin=R1-2
+Removed Pin From Net: NetName=GND Pin=R2-2
+Removed Pin From Net: NetName=GND Pin=R3-2
+Removed Pin From Net: NetName=GND Pin=R4-2
+Removed Pin From Net: NetName=GND Pin=R5-2
+Removed Pin From Net: NetName=GND Pin=R6-2
+Removed Pin From Net: NetName=GND Pin=R7-2
+Removed Member From Class: ClassName=SensorLDR Member=HEADER
+Removed Member From Class: ClassName=SensorLDR Member=R1
+Removed Member From Class: ClassName=SensorLDR Member=R2
+Removed Member From Class: ClassName=SensorLDR Member=R3
+Removed Member From Class: ClassName=SensorLDR Member=R4
+Removed Member From Class: ClassName=SensorLDR Member=R5
+Removed Member From Class: ClassName=SensorLDR Member=R6
+Removed Member From Class: ClassName=SensorLDR Member=R7
+Change Component Footprint: Designator=VR1 Old Footprint=VR-S1 New Footprint=VR-S2
+Change Component Footprint: Designator=VR2 Old Footprint=VR-S1 New Footprint=VR-S2
+Change Component Footprint: Designator=VR3 Old Footprint=VR-S1 New Footprint=VR-S2
+Change Component Footprint: Designator=VR4 Old Footprint=VR-S1 New Footprint=VR-S2
+Change Component Footprint: Designator=VR5 Old Footprint=VR-S1 New Footprint=VR-S2
+Change Component Footprint: Designator=VR6 Old Footprint=VR-S1 New Footprint=VR-S2
+Change Component Footprint: Designator=VR7 Old Footprint=VR-S1 New Footprint=VR-S2
+Added Component: Designator=LDR8(CDS)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P?(HDR1X10H)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=VR8(VR-S2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Volume 50k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=LDR1-1
+Added Pin To Net: NetName=GND Pin=LDR2-1
+Added Pin To Net: NetName=GND Pin=LDR3-1
+Added Pin To Net: NetName=GND Pin=LDR4-1
+Added Pin To Net: NetName=GND Pin=LDR5-1
+Added Pin To Net: NetName=GND Pin=LDR6-1
+Added Pin To Net: NetName=GND Pin=LDR7-1
+Added Pin To Net: NetName=GND Pin=LDR8-1
+Added Pin To Net: NetName=VCC Pin=P?-1
+Added Pin To Net: NetName=GND Pin=P?-2
+Added Pin To Net: NetName=S1 Pin=P?-3
+Added Pin To Net: NetName=S2 Pin=P?-4
+Added Pin To Net: NetName=S3 Pin=P?-5
+Added Pin To Net: NetName=S4 Pin=P?-6
+Added Pin To Net: NetName=S5 Pin=P?-7
+Added Pin To Net: NetName=S6 Pin=P?-8
+Added Pin To Net: NetName=S7 Pin=P?-9
+Added Pin To Net: NetName=VCC Pin=VR8-1
+Added Pin To Net: NetName=S8 Pin=LDR8-2
+Added Pin To Net: NetName=S8 Pin=P?-10
+Added Pin To Net: NetName=S8 Pin=VR8-2
+Added Net: Name=S8
+Added Member To Class: ClassName=SensorLDR Member=Component LDR8 LDR
+Added Member To Class: ClassName=SensorLDR Member=Component P? Header 10H
+Added Member To Class: ClassName=SensorLDR Member=Component VR8 50K
+Added Room: Name=SensorLDR
